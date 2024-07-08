@@ -18,6 +18,7 @@ a{
     width: 1920px;
     padding: 264px 448px 262px;
     background: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../images/hero-bg.png);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
