@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
 }
+h1,h2,h3,h4,h5,h6,p{ margin: 0; }
 a{
     text-decoration: none;
     display: inline-block;
@@ -44,4 +45,95 @@ a{
     background: #52C303;
     color: #FFFFFF;
     border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border: 1px solid transparent;
+    transition: .3s ease-in-out;
+}
+#hero .overlay .btn a:hover{
+    color: #52C303;
+    background: #FFFFFF;
+    border-color: #52C303;
+}
+#favourite_food{
+    padding: 167px 0 184px;
+    text-align: center;
+}
+/* =======================Common CSS */
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+#favourite_food p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+    color: #101010;
+}
+#favourite_food h3{
+    width: 691px;
+    margin: 0 auto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 48px;
+    color: #101010;
+}
+#favourite_food .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+#favourite_food .cards .card{
+    width: 424px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#favourite_food .cards img{
+    margin-bottom: 32px;
+}
+#favourite_food .cards .content h4{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 24px;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    color: #101010;
+    background: rgba(82, 195, 3, 0.15);
+}
+#favourite_food .cards .content h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    margin-bottom: 24px;
+    color: #101010;
+}
+#favourite_food .cards .content p{
+    width: 424px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #101010;
+}
+#favourite_food .btn a{
+    padding: 21px 32px 21px 32px;
+    background: #52C303;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border: 1px solid transparent;
+    transition: .3s ease-in-out;
+}
+#favourite_food .btn a:hover {
+    color: #52C303;
+    background: #FFFFFF;
+    border-color: #52C303;
 }
