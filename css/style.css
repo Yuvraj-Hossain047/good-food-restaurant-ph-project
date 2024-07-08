@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+#hero{
+    width: 1920px;
+    height: 919px;
+    padding: 264px 448px;
+    background: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../images/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+}
+#hero .overlay h4{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+#hero .overlay h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+#hero .overlay p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+#hero .overlay .btn a{
+    padding: 21px 32px 21px 32px;
+    background: #52C303;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
