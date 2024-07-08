@@ -137,3 +137,109 @@ a{
     background: #FFFFFF;
     border-color: #52C303;
 }
+#good_food{
+    width: 1920px;
+    display: flex;
+    margin: 0 auto;
+}
+#good_food .good_food_pic{
+    width: 50%;
+}
+#good_food .good_food_pic img{
+    width: 100%
+}
+#good_food .good_food_text{
+    width: 50%;
+    padding: 135px 53px 135px 77px;
+}
+#good_food .good_food_text h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #101010;
+}
+#good_food .good_food_text p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: rgba(16, 16, 16,0.6);
+}
+#good_food .good_food_text h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin: 30px 0;
+    color: rgba(16, 16, 16,0.7);
+}
+#good_food .good_food_text .social{
+    width: 261px;
+    margin: 32px auto 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+#pizza{
+    padding: 216px 0 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#pizza .cards img{
+    margin-bottom: 32px;
+}
+#pizza .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pizza .card img{
+    margin-bottom: 32px;
+}
+#pizza .card .content h4{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 24px;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    color: #101010;
+    background: rgba(82, 195, 3, 0.15);
+}
+#pizza .card .content h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    margin-bottom: 24px;
+    color: #101010;
+}
+#pizza .card .content p{
+    width: 424px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 64px;
+    color: #101010;
+}
+#pizza .card .content .btn a{
+    padding: 21px 32px 21px 32px;
+    background: #52C303;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border: 1px solid transparent;
+    transition: .3s ease-in-out;
+}
+#pizza .card .content .btn a:hover {
+    color: #52C303;
+    background: #FFFFFF;
+    border-color: #52C303;
+}
